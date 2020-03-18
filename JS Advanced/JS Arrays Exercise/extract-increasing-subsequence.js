@@ -6,7 +6,7 @@ function solve(input){
 
 
     for(let i = 1; i < input.length; i++){
-        if(input[i] > Math.max(...result)){
+        if(input[i] >= Math.max(...result)){
             result.push(input[i]);
         }
     }
